@@ -1,0 +1,17 @@
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const START_LOADING = 'START_LOADING'
+export const LOGOUT = 'LOGOUT';
+
+//users
+
+export const ADD_PRODUCT = 'ADD_PRODUCT';
+export const DELETE_PRODUCT = 'DELETE_PRODUCT';
+export const PRODUCT_SELECTED = 'PRODUCT_SELECTED';
+export const PRODUCT_UPDATED = 'PRODUCT_UPDATED';
+export const CLEAN_PRODUCT_SELECTED = 'CLEAN_PRODUCT_SELECTED';
+export const LOAD_PRODUCTS = 'LOAD_PRODUCTS';
+
+//UI
+
+
+export const TOGGLE_MENU = 'TOGGLE_MENU';

@@ -1,0 +1,74 @@
+[debug] [2021-05-26T14:23:26.867Z] ----------------------------------------------------------------------
+[debug] [2021-05-26T14:23:26.869Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HYSTOU\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-26T14:23:26.870Z] CLI Version:   9.11.0
+[debug] [2021-05-26T14:23:26.870Z] Platform:      win32
+[debug] [2021-05-26T14:23:26.870Z] Node Version:  v12.18.2
+[debug] [2021-05-26T14:23:26.871Z] Time:          Wed May 26 2021 09:23:26 GMT-0500 (GMT-05:00)
+[debug] [2021-05-26T14:23:26.872Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-26T14:23:26.880Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-26T14:23:26.880Z] > authorizing via signed-in user (aneduardotejada@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HYSTOU\Desktop\React\products-waco-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-05-26T14:23:45.494Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-05-26T14:23:45.896Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-05-26T14:23:45.897Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project wacoa-app-prueba (wacoa-app-prueba) 
+[info] 
+=== Firestore Setup
+[debug] [2021-05-26T14:23:47.857Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-05-26T14:23:47.858Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-26T14:23:48.131Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Wed, 26 May 2021 14:23:46 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-26T14:23:48.158Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/wacoa-app-prueba/services/firestore.googleapis.com  
+ 
+[debug] [2021-05-26T14:23:48.912Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 26 May 2021 14:23:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-26T14:23:48.914Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/wacoa-app-prueba  
+ 
+[debug] [2021-05-26T14:23:49.771Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 26 May 2021 14:23:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-26T14:23:49.772Z] database_type: CLOUD_FIRESTORE
+[debug] [2021-05-26T14:23:49.774Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-26T14:23:49.775Z] > authorizing via signed-in user (aneduardotejada@gmail.com)
+[debug] [2021-05-26T14:23:49.775Z] [iam] checking project wacoa-app-prueba for permissions ["firebase.projects.get"]
+[debug] [2021-05-26T14:23:49.777Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/wacoa-app-prueba:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-05-26T14:23:50.339Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 26 May 2021 14:23:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=315","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2021-05-26T14:23:59.905Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/wacoa-app-prueba/releases?pageSize=10&pageToken=  
+ 
+[debug] [2021-05-26T14:24:00.329Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 26 May 2021 14:23:59 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-26T14:24:00.332Z] Found ruleset: projects/wacoa-app-prueba/rulesets/f67f7870-4f46-4734-9fc4-7fa6e5553a1e
+[debug] [2021-05-26T14:24:00.333Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/wacoa-app-prueba/rulesets/f67f7870-4f46-4734-9fc4-7fa6e5553a1e  
+ 
+[debug] [2021-05-26T14:24:00.592Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 26 May 2021 14:23:59 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-26T14:24:00.815Z] Error: EISDIR: illegal operation on a directory, open 'C:\Users\HYSTOU\Desktop\React\products-waco-app'
+    at Object.openSync (fs.js:458:3)
+    at Object.writeFileSync (fs.js:1355:35)
+    at Object.createFileSync (C:\Users\HYSTOU\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:43:6)
+    at Config.writeProjectFile (C:\Users\HYSTOU\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\HYSTOU\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\firestore\rules.js:50:27
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Object.doSetup [as firestore] (C:\Users\HYSTOU\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\firestore\index.js:35:5)
+    at async init (C:\Users\HYSTOU\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: An unexpected error has occurred.

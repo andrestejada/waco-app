@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.header-modal{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.close-modal-btn{
+    border: none;
+    color: red;
+    font-size: 2em;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+label{
+    color: $color-text-form;
+}
